@@ -14,7 +14,18 @@ public class testa {
         System.out.println(" 5. salir");
 
         int respuesta = sc.nextInt();
-        
+
+        switch (respuesta){
+            case 1:
+                System.out.println(" dame un numero 1:");
+                int num1 = sc.nextInt();
+                System.out.println(" dame un numero 2:");
+                int num2 = sc.nextInt();
+                int suma = num1+num2;
+                System.out.println(" la suma es " +suma);
+                break;
+        }
+
     }
 
 }
