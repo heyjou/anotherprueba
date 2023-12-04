@@ -42,6 +42,15 @@ public class testa {
                 int multiplicacion = num1*num2;
                 System.out.println(" la suma es " +multiplicacion);
                 break;
+
+            case 4:
+                System.out.println(" dame un numero 1:");
+                num1 = sc.nextInt();
+                System.out.println(" dame un numero 2:");
+                num2 = sc.nextInt();
+                int division = num1/num2;
+                System.out.println(" la suma es " +division);
+                break;
         }
 
     }
