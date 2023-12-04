@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class testa {
 
     public static void main (String[] args){
-
+        int num1, num2;
         Scanner sc = new Scanner(System.in);
 
         System.out.println(" Pulsa una opción:");
@@ -18,9 +18,9 @@ public class testa {
         switch (respuesta){
             case 1:
                 System.out.println(" dame un numero 1:");
-                int num1 = sc.nextInt();
+                num1 = sc.nextInt();
                 System.out.println(" dame un numero 2:");
-                int num2 = sc.nextInt();
+                num2 = sc.nextInt();
                 int suma = num1+num2;
                 System.out.println(" la suma es " +suma);
                 break;
@@ -51,7 +51,11 @@ public class testa {
                 int division = num1/num2;
                 System.out.println(" la suma es " +division);
                 break;
+
+            default:
+                break;
         }
+
 
     }
 
