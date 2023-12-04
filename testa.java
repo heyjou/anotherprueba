@@ -33,6 +33,15 @@ public class testa {
                 int resta = num1-num2;
                 System.out.println(" la suma es " +resta);
                 break;
+
+            case 3:
+                System.out.println(" dame un numero 1:");
+                num1 = sc.nextInt();
+                System.out.println(" dame un numero 2:");
+                num2 = sc.nextInt();
+                int multiplicacion = num1*num2;
+                System.out.println(" la suma es " +multiplicacion);
+                break;
         }
 
     }
